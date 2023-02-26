@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/nordic/hci_vendor.c:13:9:hci_vendor_read_static_addr	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/nordic/hci_vendor.c:54:6:hci_vendor_read_key_hierarchy_roots	0	static

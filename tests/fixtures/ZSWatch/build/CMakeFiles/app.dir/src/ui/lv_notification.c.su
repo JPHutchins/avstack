@@ -1,0 +1,5 @@
+C:/Users/jp/repos/ZSWatch/app/src/ui/lv_notification.c:83:13:on_notifcation_closed	16	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src/core/lv_disp.h:162:26:lv_scr_act	8	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/lv_notification.c:17:6:lv_notification_show	32	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/lv_notification.c:72:6:lv_notification_remove	8	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/lv_notification.c:94:6:close_not_timer	8	static

@@ -1,0 +1,6 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/memq.c:51:14:memq_init	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/memq.c:66:14:memq_deinit	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/memq.c:92:14:memq_enqueue	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/memq.c:117:14:memq_peek	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/memq.c:141:14:memq_peek_n	4	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/memq.c:168:14:memq_dequeue	0	static

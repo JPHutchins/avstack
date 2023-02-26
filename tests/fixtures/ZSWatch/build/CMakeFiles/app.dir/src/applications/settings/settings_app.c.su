@@ -1,0 +1,8 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:177:12:settings_app_add	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:133:13:settings_app_stop	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:127:13:settings_app_start	16	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:139:13:on_close_settings	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:169:13:on_reset_steps_changed	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:145:13:on_brightness_changed	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:160:13:on_aoa_enable_changed	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_app.c:151:13:on_display_always_on_changed	8	static

@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:458:1:irq_connect0	0	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/pinctrl.h:342:19:pinctrl_apply_state	16	static
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:310:12:twim_nrfx_pm_action	16	static
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:267:12:i2c_nrfx_twim_recover_bus	24	static
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:348:12:i2c_nrfx_twim_init	56	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:213:13:event_handler	0	static
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:235:12:i2c_nrfx_twim_configure	32	static
+C:/ncs/v2.2.0/zephyr/drivers/i2c/i2c_nrfx_twim.c:43:12:i2c_nrfx_twim_transfer	240	dynamic,bounded

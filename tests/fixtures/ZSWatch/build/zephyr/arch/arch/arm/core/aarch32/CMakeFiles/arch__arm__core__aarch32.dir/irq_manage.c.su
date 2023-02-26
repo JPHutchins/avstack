@@ -1,0 +1,6 @@
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/irq_manage.c:40:6:arch_irq_enable	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/irq_manage.c:45:6:arch_irq_disable	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/irq_manage.c:50:5:arch_irq_is_enabled	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/irq_manage.c:64:6:z_arm_irq_priority_set	16	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/irq_manage.c:155:6:z_irq_spurious	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/irq_manage.c:163:6:_arch_isr_direct_pm	8	static

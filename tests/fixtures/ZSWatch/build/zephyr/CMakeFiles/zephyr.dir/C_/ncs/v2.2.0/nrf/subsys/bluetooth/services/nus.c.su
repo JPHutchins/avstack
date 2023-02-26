@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/nrf/subsys/bluetooth/services/nus.c:18:13:nus_ccc_cfg_changed	0	static
+C:/ncs/v2.2.0/nrf/subsys/bluetooth/services/nus.c:29:16:on_receive	8	static
+C:/ncs/v2.2.0/nrf/subsys/bluetooth/services/nus.c:45:13:on_sent	0	static
+C:/ncs/v2.2.0/nrf/subsys/bluetooth/services/nus.c:84:5:bt_nus_init	0	static
+C:/ncs/v2.2.0/nrf/subsys/bluetooth/services/nus.c:95:5:bt_nus_send	40	static

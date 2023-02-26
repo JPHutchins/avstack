@@ -1,0 +1,3 @@
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:164:20:lv_memset_00	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:174:20:lv_memset_ff	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_line.c:52:28:lv_draw_sw_line	312	static

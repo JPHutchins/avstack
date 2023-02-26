@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/subsys/logging/log_cache.c:22:5:log_cache_init	20	static
+C:/ncs/v2.2.0/zephyr/subsys/logging/log_cache.c:46:6:log_cache_get	24	static
+C:/ncs/v2.2.0/zephyr/subsys/logging/log_cache.c:90:6:log_cache_put	0	static
+C:/ncs/v2.2.0/zephyr/subsys/logging/log_cache.c:98:6:log_cache_release	0	static

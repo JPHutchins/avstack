@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/lib/os/heap.h:204:25:right_chunk	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:225:17:rand32	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:23:13:in_bounds	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:31:13:valid_chunk	24	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:88:6:sys_heap_validate	32	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:300:6:sys_heap_stress	56	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:351:6:heap_print_info	40	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap-validate.c:409:6:sys_heap_print_info	0	static

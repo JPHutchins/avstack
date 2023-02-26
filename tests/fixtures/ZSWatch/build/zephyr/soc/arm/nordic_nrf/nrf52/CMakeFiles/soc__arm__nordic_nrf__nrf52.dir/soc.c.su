@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/soc/arm/nordic_nrf/nrf52/soc.c:58:12:nordicsemi_nrf52_init	0	static
+C:/ncs/v2.2.0/zephyr/soc/arm/nordic_nrf/nrf52/soc.c:52:6:sys_arch_reboot	0	static
+C:/ncs/v2.2.0/zephyr/soc/arm/nordic_nrf/nrf52/soc.c:88:6:arch_busy_wait	0	static

@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/sleep.c:15:10:sleep	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/sleep.c:25:5:usleep	16	static

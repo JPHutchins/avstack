@@ -1,0 +1,5 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/template/template_app.c:50:12:template_app_add	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/template/template_app.c:33:13:template_app_stop	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/template/template_app.c:26:13:template_app_start	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/template/template_app.c:39:13:timer_callback	0	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/template/template_app.c:45:13:on_close_template	0	static

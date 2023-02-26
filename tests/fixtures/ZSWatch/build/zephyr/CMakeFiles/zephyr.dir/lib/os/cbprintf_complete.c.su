@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_complete.c:318:15:extract_decimal	20	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_complete.c:788:14:encode_uint	40	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_complete.c:1319:12:outs	24	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_complete.c:1338:5:z_cbvprintf_impl	128	static

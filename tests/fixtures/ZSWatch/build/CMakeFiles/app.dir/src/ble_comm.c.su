@@ -1,0 +1,13 @@
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/log_msg.h:24:20:z_log_msg_static_create	0	static
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:159:13:param_updated	56	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:88:13:mtu_exchange_cb	88	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:472:13:send_ble_data_event	16	static
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:280:17:extract_value_uint32.constprop	24	static
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:300:16:extract_value_int32.constprop	24	static
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:254:14:extract_value_str.constprop	16	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/bluetooth/addr.h:231:19:bt_addr_le_to_str.constprop.isra	56	static
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:146:13:disconnected	88	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:112:13:connected	224	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:164:13:bt_receive_cb	256	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:60:5:ble_comm_init	88	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/ble_comm.c:79:5:ble_comm_send	32	static

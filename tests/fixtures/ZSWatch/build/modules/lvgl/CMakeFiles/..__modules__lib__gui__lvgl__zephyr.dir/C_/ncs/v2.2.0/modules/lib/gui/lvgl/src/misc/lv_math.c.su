@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:48:31:lv_trigo_sin	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:83:10:lv_bezier3	20	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:109:28:lv_sqrt	12	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:132:10:lv_atan2	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:214:9:lv_pow	12	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:236:9:lv_map	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_math.c:254:10:lv_rand	0	static

@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:187:13:clock_stop	32	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:275:12:nrfx_clock_init	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:300:6:nrfx_clock_enable	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:318:6:nrfx_clock_disable	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:343:6:nrfx_clock_uninit	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:358:6:nrfx_clock_start	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:427:6:nrfx_clock_stop	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:433:12:nrfx_clock_calibration_start	0	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:476:12:nrfx_clock_is_calibrating	0	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:487:6:nrfx_clock_calibration_timer_start	0	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:500:6:nrfx_clock_calibration_timer_stop	0	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c:586:6:nrfx_power_clock_irq_handler	8	static

@@ -1,0 +1,3 @@
+C:/Users/jp/repos/ZSWatch/app/src/vibration_motor.c:11:6:vibration_motor_init	8	static
+C:/Users/jp/repos/ZSWatch/app/src/vibration_motor.c:18:6:vibration_motor_set_power	64	static
+C:/Users/jp/repos/ZSWatch/app/src/vibration_motor.c:32:6:vibration_motor_set_on	8	static

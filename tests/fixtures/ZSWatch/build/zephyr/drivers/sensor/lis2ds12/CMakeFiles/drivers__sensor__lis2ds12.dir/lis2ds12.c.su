@@ -1,0 +1,10 @@
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:212:20:lis2ds12_convert	16	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:251:12:lis2ds12_channel_get	16	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:98:12:lis2ds12_set_range	16	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:163:12:lis2ds12_sample_fetch_accel.part.0.isra	32	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:163:12:lis2ds12_sample_fetch_accel.isra	16	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:183:12:lis2ds12_sample_fetch	8	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:26:12:lis2ds12_set_odr	88	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:147:12:lis2ds12_attr_set.part.0	32	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:147:12:lis2ds12_attr_set	16	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12.c:269:12:lis2ds12_init	208	dynamic,bounded

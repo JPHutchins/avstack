@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c:25:6:cntr_init	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c:32:10:cntr_start	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c:43:10:cntr_stop	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c:56:10:cntr_cnt_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/cntr.c:61:6:cntr_cmp_set	0	static

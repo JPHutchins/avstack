@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.h:164:20:lv_memset_00	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_gc.c:39:6:_lv_gc_clear_roots	8	static

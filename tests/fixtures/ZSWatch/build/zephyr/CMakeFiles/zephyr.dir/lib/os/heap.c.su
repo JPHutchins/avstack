@@ -1,0 +1,14 @@
+C:/ncs/v2.2.0/zephyr/lib/os/heap.h:142:25:chunk_size	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:98:13:free_list_add	24	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:34:13:free_list_remove_bidx	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:60:13:free_list_remove	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:211:18:alloc_chunk	32	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:125:13:merge_chunks	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:109:13:split_chunks	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:133:13:free_chunk	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:163:6:sys_heap_free	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:200:8:sys_heap_usable_size	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:263:7:sys_heap_alloc	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:301:7:sys_heap_aligned_alloc	32	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:379:7:sys_heap_aligned_realloc	48	static
+C:/ncs/v2.2.0/zephyr/lib/os/heap.c:485:6:sys_heap_init	24	static

@@ -1,0 +1,13 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:36:30:posix_fs_alloc_obj	12	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:139:12:fs_ioctl_vmeth	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:128:12:fs_close_vmeth	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:177:16:fs_write_vmeth	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:196:16:fs_read_vmeth	8	static
+c:\ncs\toolchains\v2.2.0\opt\zephyr-sdk\arm-zephyr-eabi\arm-zephyr-eabi\sys-include\sys\_default_fcntl.h:214:12:open	28	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:222:6:opendir	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:250:5:closedir	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:277:16:readdir	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:312:5:rename	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/fs.c:330:5:unlink	8	static
+c:\ncs\toolchains\v2.2.0\opt\zephyr-sdk\arm-zephyr-eabi\arm-zephyr-eabi\sys-include\sys\stat.h:142:5:stat	32	static
+c:\ncs\toolchains\v2.2.0\opt\zephyr-sdk\arm-zephyr-eabi\arm-zephyr-eabi\sys-include\sys\stat.h:140:5:mkdir	8	static

@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:701:24:llcp_rp_enc_tx	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:749:13:rp_enc_ntf_ltk	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:848:13:rp_enc_setup_lll	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:834:13:rp_enc_send_enc_rsp.part.0.isra	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:802:13:rp_enc_complete.isra	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1174:13:rp_enc_execute_fsm	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1227:6:llcp_rp_enc_rx	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1266:6:llcp_rp_enc_init_proc	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1280:6:llcp_rp_enc_ltk_req_reply	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1285:6:llcp_rp_enc_ltk_req_neg_reply	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1290:6:llcp_rp_enc_ltk_req_reply_allowed	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_enc.c:1295:6:llcp_rp_enc_run	0	static

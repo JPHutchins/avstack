@@ -1,0 +1,17 @@
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:50:20:free_space	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:79:24:get_usage	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:109:24:idx_inc	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:130:13:add_skip_item	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:90:20:max_utilization_update	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:148:33:drop_item_locked	40	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:28:6:mpsc_pbuf_init	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:197:6:mpsc_pbuf_put_word	40	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:236:26:mpsc_pbuf_alloc	64	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:309:6:mpsc_pbuf_commit	24	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:323:6:mpsc_pbuf_put_word_ext	40	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:375:6:mpsc_pbuf_put_data	48	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:421:32:mpsc_pbuf_claim	32	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:467:6:mpsc_pbuf_free	24	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:488:6:mpsc_pbuf_is_pending	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:497:6:mpsc_pbuf_get_utilization	8	static
+C:/ncs/v2.2.0/zephyr/lib/os/mpsc_pbuf.c:505:5:mpsc_pbuf_get_max_utilization	0	static

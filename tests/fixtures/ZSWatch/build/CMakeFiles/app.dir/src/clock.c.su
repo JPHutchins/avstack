@@ -1,0 +1,3 @@
+C:/Users/jp/repos/ZSWatch/app/src/clock.c:14:6:clock_init	32	static
+C:/Users/jp/repos/ZSWatch/app/src/clock.c:25:12:clock_get_time	24	static
+C:/Users/jp/repos/ZSWatch/app/src/clock.c:35:8:clock_get_time_unix	24	static

@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/basic/lv_theme_basic.c:174:13:theme_apply	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/basic/lv_theme_basic.c:424:13:style_init_reset	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/basic/lv_theme_basic.c:139:6:lv_theme_basic_is_inited	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/basic/lv_theme_basic.c:144:14:lv_theme_basic_init	24	static

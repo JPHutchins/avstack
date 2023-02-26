@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_key.c:21:5:pthread_key_create	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_key.c:47:5:pthread_key_delete	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_key.c:79:5:pthread_setspecific	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_key.c:141:7:pthread_getspecific	16	static

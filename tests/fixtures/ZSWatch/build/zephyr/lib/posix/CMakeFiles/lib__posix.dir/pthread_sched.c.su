@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_sched.c:24:5:sched_get_priority_min	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_sched.c:52:5:sched_get_priority_max	8	static

@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:28:13:do_ecb	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:157:13:ecb_cb	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:51:6:ecb_encrypt_be	56	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:64:6:ecb_encrypt	64	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:85:10:ecb_encrypt_nonblocking	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:125:6:isr_ecb	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ecb.c:170:10:ecb_ut	152	static

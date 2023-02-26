@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:689:13:ticker_update_latency_cancel_op_cb	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:682:13:ticker_op_cb	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:676:13:ticker_op_stop_adv_cb	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:507:6:ull_periph_ticker_cb	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:75:6:ull_periph_setup	112	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:487:6:ull_periph_latency_cancel	40	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:585:9:ll_start_enc_req_send	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral.c:701:9:ll_set_min_used_chans	16	static

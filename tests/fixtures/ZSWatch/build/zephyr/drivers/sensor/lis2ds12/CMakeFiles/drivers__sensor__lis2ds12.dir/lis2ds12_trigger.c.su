@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/gpio.h:666:19:gpio_pin_interrupt_configure_dt	16	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12_trigger.c:80:13:lis2ds12_work_cb	56	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12_trigger.c:18:13:lis2ds12_gpio_callback	48	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12_trigger.c:118:5:lis2ds12_trigger_init	136	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/drivers/sensor/lis2ds12/lis2ds12_trigger.c:174:5:lis2ds12_trigger_set	104	dynamic,bounded

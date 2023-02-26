@@ -1,0 +1,6 @@
+C:/ncs/v2.2.0/zephyr/kernel/timer.c:23:6:z_timer_expiration_handler	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timer.c:89:6:k_timer_init	0	static
+C:/ncs/v2.2.0/zephyr/kernel/timer.c:111:6:z_impl_k_timer_start	32	static
+C:/ncs/v2.2.0/zephyr/kernel/timer.c:160:6:z_impl_k_timer_stop	8	static
+C:/ncs/v2.2.0/zephyr/kernel/timer.c:193:10:z_impl_k_timer_status_get	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timer.c:213:10:z_impl_k_timer_status_sync	24	static

@@ -1,0 +1,13 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:1016:13:call_flush_cb	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:671:19:lv_refr_get_top_obj	32	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:164:20:lv_memset_00	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:975:13:draw_buf_flush	120	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:100:6:_lv_refr_init	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:127:6:lv_refr_obj	48	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:711:13:lv_refr_obj_and_children	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:589:13:lv_refr_area_part	96	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:200:6:_lv_inv_area	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:255:13:_lv_refr_get_disp_refreshing	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:266:6:_lv_refr_set_disp_refreshing	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:275:6:_lv_disp_refr_timer	88	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/core/lv_refr.c:110:6:lv_refr_now	8	static

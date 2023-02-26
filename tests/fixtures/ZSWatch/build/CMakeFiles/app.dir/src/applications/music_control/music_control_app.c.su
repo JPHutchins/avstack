@@ -1,0 +1,6 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/music_control/music_control_app.c:114:12:music_control_app_add	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/music_control/music_control_app.c:39:13:music_control_app_stop	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/music_control/music_control_app.c:32:13:music_control_app_start	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/music_control/music_control_app.c:46:13:on_music_ui_evt_music	64	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/music_control/music_control_app.c:104:13:timer_callback	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/music_control/music_control_app.c:75:13:app_event_handler	144	static

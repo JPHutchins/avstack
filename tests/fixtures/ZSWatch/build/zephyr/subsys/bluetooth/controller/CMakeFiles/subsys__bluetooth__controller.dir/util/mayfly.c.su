@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mayfly.c:30:6:mayfly_init	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mayfly.c:47:6:mayfly_enable	4	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mayfly.c:70:10:mayfly_enqueue	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mayfly.c:172:6:mayfly_run	72	static

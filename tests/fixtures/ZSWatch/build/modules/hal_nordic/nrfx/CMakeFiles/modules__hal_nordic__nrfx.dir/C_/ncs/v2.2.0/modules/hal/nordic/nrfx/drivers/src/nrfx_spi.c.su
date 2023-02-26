@@ -1,0 +1,10 @@
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_spi.c:253:13:transfer_byte	24	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_gpio.h:581:35:nrf_gpio_pin_port_decode	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_gpio.h:696:24:nrf_gpio_cfg_default	16	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_gpio.h:772:24:nrf_gpio_pin_clear	16	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_gpio.h:764:24:nrf_gpio_pin_set	16	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_spi.c:119:12:nrfx_spi_init	40	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_spi.c:190:6:nrfx_spi_uninit	16	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_spi.c:353:12:nrfx_spi_xfer	32	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_spi.c:402:6:nrfx_spi_abort	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_spi.c:430:6:nrfx_spi_1_irq_handler	8	static

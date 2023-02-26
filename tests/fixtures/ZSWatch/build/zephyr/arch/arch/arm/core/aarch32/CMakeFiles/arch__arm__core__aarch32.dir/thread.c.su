@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/thread.c:56:6:arch_new_thread	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/thread.c:385:10:z_check_thread_stack_fail	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/thread.c:530:6:arch_switch_to_main_thread	8	static

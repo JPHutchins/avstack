@@ -1,0 +1,38 @@
+# Available runners configured by board.cmake.
+runners:
+- nrfjprog
+- jlink
+- pyocd
+
+# Default flash runner if --runner is not given.
+flash-runner: nrfjprog
+
+# Default debug runner if --runner is not given.
+debug-runner: jlink
+
+# Common runner configuration values.
+config:
+  board_dir: C:/Users/jp/repos/ZSWatch/app/boards/arm/smart_watch_anna_nrf52833
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: zephyr.hex
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: C:/ncs/toolchains/v2.2.0/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py.exe
+  openocd: C:/Program Files/xpack-openocd-0.11.0-5-win32-x64/xpack-openocd-0.11.0-5/bin/openocd.exe
+  openocd_search:
+    - C:/ncs/toolchains/v2.2.0/opt/zephyr-sdk/sysroots/AMD64-pokysdk-linux/usr/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  nrfjprog:
+    []
+
+  jlink:
+    - --dt-flash=y
+    - --device=nrf52
+    - --speed=4000
+  pyocd:
+    - --dt-flash=y
+    - --target=nrf52833
+    - --frequency=4000000

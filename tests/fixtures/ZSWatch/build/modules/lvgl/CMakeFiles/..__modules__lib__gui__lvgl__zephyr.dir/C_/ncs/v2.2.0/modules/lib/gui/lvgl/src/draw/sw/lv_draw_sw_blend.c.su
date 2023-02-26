@@ -1,0 +1,6 @@
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_color.h:443:48:lv_color_mix	20	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_blend.c:654:26:color_blend_true_color_additive	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_blend.c:707:26:color_blend_true_color_subtractive	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_blend.c:733:26:color_blend_true_color_multiply	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_blend.c:95:6:lv_draw_sw_blend	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_blend.c:108:28:lv_draw_sw_blend_basic	96	static

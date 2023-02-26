@@ -1,0 +1,15 @@
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_color.h:443:48:lv_color_mix	20	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:164:20:lv_memset_00	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:143:22:lv_memcpy_small.isra	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:51:12:lv_img_buf_get_px_color	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:118:10:lv_img_buf_get_px_alpha	40	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:181:6:lv_img_buf_set_px_alpha	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:240:6:lv_img_buf_set_px_color	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:309:6:lv_img_buf_set_palette	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:366:6:lv_img_buf_free	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:383:10:lv_img_buf_get_img_size	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:330:16:lv_img_buf_alloc	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:418:6:_lv_img_buf_transform_init	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:474:6:_lv_img_buf_get_transformed_area	40	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:654:6:_lv_img_buf_transform_anti_alias	72	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_img_buf.c:569:6:_lv_img_buf_transform	48	static

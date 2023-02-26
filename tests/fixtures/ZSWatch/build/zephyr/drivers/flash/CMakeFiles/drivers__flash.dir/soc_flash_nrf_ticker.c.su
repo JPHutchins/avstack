@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:51:13:ticker_stop_prepare_cb	24	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:104:13:time_slot_delay	80	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:160:13:time_slot_callback_prepare	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:147:13:time_slot_callback_abort	16	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:71:13:time_slot_callback_work	24	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:41:13:ticker_stop_work_cb	8	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:178:5:nrf_flash_sync_init	8	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:184:6:nrf_flash_sync_set_context	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:193:5:nrf_flash_sync_exe	96	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:241:6:nrf_flash_sync_is_required	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:246:6:nrf_flash_sync_get_timestamp_begin	8	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/soc_flash_nrf_ticker.c:251:6:nrf_flash_sync_check_time_limit	16	static

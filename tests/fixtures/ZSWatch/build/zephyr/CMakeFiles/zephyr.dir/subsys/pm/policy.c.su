@@ -1,0 +1,11 @@
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:55:13:update_max_latency	16	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/sys/slist.h:417:1:sys_slist_find_and_remove.isra	0	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:85:29:pm_policy_next_state	56	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:120:6:pm_policy_state_lock_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:131:6:pm_policy_state_lock_put	0	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:146:6:pm_policy_state_lock_is_active	0	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:159:6:pm_policy_latency_request_add	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:172:6:pm_policy_latency_request_update	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:183:6:pm_policy_latency_request_remove	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:193:6:pm_policy_latency_changed_subscribe	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/policy.c:204:6:pm_policy_latency_changed_unsubscribe	16	static

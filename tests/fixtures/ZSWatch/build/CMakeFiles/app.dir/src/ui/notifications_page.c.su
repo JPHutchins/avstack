@@ -1,0 +1,7 @@
+C:/Users/jp/repos/ZSWatch/app/src/ui/notifications_page.c:115:13:close_button_pressed	8	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/notifications_page.c:121:13:scroll_event_cb	80	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/notifications_page.c:109:13:not_button_pressed	16	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src/core/lv_disp.h:235:26:lv_disp_dpx.part.0	16	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/notifications_page.c:15:6:notifications_page_init	0	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/notifications_page.c:21:6:notifications_page_create	48	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/notifications_page.c:61:6:notifications_page_close	0	static

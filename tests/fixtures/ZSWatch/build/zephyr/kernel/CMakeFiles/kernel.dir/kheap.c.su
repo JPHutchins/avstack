@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/kernel/kheap.c:13:6:k_heap_init	4	static
+C:/ncs/v2.2.0/zephyr/kernel/kheap.c:21:12:statics_init	16	static
+C:/ncs/v2.2.0/zephyr/kernel/kheap.c:64:7:k_heap_aligned_alloc	56	static
+C:/ncs/v2.2.0/zephyr/kernel/kheap.c:110:7:k_heap_alloc	16	static
+C:/ncs/v2.2.0/zephyr/kernel/kheap.c:121:6:k_heap_free	24	static

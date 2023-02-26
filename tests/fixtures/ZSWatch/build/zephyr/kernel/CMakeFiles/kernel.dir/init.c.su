@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/kernel/init.c:230:13:z_sys_init_run_level	16	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:277:13:bg_thread_main	8	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:108:13:z_early_memset	0	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:121:13:z_early_memcpy	0	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:132:6:z_bss_zero	8	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:368:6:z_init_cpu	40	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:447:6:z_early_boot_rand_get	24	static
+C:/ncs/v2.2.0/zephyr/kernel/init.c:497:20:z_cstart	160	static

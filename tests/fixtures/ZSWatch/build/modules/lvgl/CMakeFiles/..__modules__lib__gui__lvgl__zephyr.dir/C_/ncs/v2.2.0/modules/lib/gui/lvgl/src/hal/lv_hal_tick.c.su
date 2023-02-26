@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/hal/lv_hal_tick.c:60:10:lv_tick_get	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/hal/lv_hal_tick.c:86:10:lv_tick_elaps	16	static

@@ -1,0 +1,6 @@
+C:/Users/jp/repos/ZSWatch/app/src/notification_manager.c:17:6:notification_manager_init	8	static
+C:/Users/jp/repos/ZSWatch/app/src/notification_manager.c:27:26:notification_manager_add	32	static
+C:/Users/jp/repos/ZSWatch/app/src/notification_manager.c:74:9:notification_manager_remove	12	static
+C:/Users/jp/repos/ZSWatch/app/src/notification_manager.c:86:9:notification_manager_get_all	32	static
+C:/Users/jp/repos/ZSWatch/app/src/notification_manager.c:99:9:notification_manager_get_num	0	static
+C:/Users/jp/repos/ZSWatch/app/src/notification_manager.c:104:26:notification_manager_get_newest	12	static

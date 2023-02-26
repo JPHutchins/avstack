@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/addr.c:24:5:bt_addr_le_create_nrpa	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/addr.c:38:5:bt_addr_le_create_static	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/addr.c:52:5:bt_addr_from_str	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/addr.c:81:5:bt_addr_le_from_str	16	static

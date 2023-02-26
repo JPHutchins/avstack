@@ -1,0 +1,6 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/widgets/lv_line.c:108:13:lv_line_constructor	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/widgets/lv_line.c:124:13:lv_line_event	64	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/widgets/lv_line.c:54:12:lv_line_create	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/widgets/lv_line.c:66:6:lv_line_set_points	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/widgets/lv_line.c:79:6:lv_line_set_y_invert	4	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/widgets/lv_line.c:95:6:lv_line_get_y_invert	0	static

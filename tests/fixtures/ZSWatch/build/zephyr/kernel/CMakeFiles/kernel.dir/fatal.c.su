@@ -1,0 +1,9 @@
+C:/ncs/v2.2.0/zephyr/include/zephyr/debug/coredump.h:209:6:coredump	0	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/debug/coredump.h:214:6:coredump_memory_dump	0	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/debug/coredump.h:218:6:coredump_buffer_output	0	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/debug/coredump.h:222:5:coredump_query	0	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/debug/coredump.h:227:5:coredump_cmd	0	static
+C:/ncs/v2.2.0/zephyr/kernel/fatal.c:23:27:arch_system_halt	0	static
+C:/ncs/v2.2.0/zephyr/kernel/fatal.c:39:13:k_sys_fatal_error_handler	32	static
+C:/ncs/v2.2.0/zephyr/kernel/fatal.c:81:20:k_fatal_halt	8	static
+C:/ncs/v2.2.0/zephyr/kernel/fatal.c:96:6:z_fatal_error	136	dynamic,bounded

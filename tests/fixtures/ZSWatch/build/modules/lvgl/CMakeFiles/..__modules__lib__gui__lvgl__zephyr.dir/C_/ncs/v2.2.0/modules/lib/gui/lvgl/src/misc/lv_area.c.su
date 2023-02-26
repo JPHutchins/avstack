@@ -1,0 +1,16 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:463:13:lv_point_within_circle.isra	12	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:48:6:lv_area_set	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:61:6:lv_area_set_width	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:71:6:lv_area_set_height	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:82:6:_lv_area_set_pos	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:97:10:lv_area_get_size	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:106:6:lv_area_increase	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:114:6:lv_area_move	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:129:6:_lv_area_intersect	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:152:6:_lv_area_join	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:167:6:_lv_area_is_point_on	64	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:233:6:_lv_area_is_on	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:250:6:_lv_area_is_in	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:291:6:_lv_area_is_out	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:322:6:_lv_area_is_equal	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_area.c:334:6:lv_area_align	28	static

@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/kernel/mutex.c:81:13:adjust_owner_prio.isra	0	static
+C:/ncs/v2.2.0/zephyr/kernel/mutex.c:49:5:z_impl_k_mutex_init	0	static
+C:/ncs/v2.2.0/zephyr/kernel/mutex.c:95:5:z_impl_k_mutex_lock	32	static
+C:/ncs/v2.2.0/zephyr/kernel/mutex.c:201:5:z_impl_k_mutex_unlock	16	static

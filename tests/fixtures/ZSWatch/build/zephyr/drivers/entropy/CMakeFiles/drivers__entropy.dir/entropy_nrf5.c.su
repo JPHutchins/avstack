@@ -1,0 +1,6 @@
+C:/ncs/v2.2.0/zephyr/drivers/entropy/entropy_nrf5.c:102:12:random_byte_get	0	static
+C:/ncs/v2.2.0/zephyr/drivers/entropy/entropy_nrf5.c:123:17:rng_pool_get	20	static
+C:/ncs/v2.2.0/zephyr/drivers/entropy/entropy_nrf5.c:256:12:entropy_nrf5_get_entropy_isr	32	static
+C:/ncs/v2.2.0/zephyr/drivers/entropy/entropy_nrf5.c:229:12:entropy_nrf5_get_entropy	24	static
+C:/ncs/v2.2.0/zephyr/drivers/entropy/entropy_nrf5.c:339:12:entropy_nrf5_init	16	static
+C:/ncs/v2.2.0/zephyr/drivers/entropy/entropy_nrf5.c:206:13:isr	8	static

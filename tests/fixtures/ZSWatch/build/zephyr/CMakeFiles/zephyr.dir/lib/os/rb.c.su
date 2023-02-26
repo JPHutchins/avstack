@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:79:12:find_and_stack	24	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:533:30:stack_left_limb	12	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:34:13:set_child	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:128:13:rotate	40	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:100:16:z_rb_get_minmax	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:217:6:rb_insert	48	dynamic
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:367:6:rb_remove	64	dynamic
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:497:6:z_rb_walk	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:507:16:z_rb_child	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:512:5:z_rb_is_black	0	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:517:6:rb_contains	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/rb.c:557:16:z_rb_foreach_next	8	static

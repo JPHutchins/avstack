@@ -1,0 +1,10 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:25:12:acquire_mutex	40	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:69:5:pthread_mutex_trylock	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:80:5:pthread_mutex_timedlock	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:92:5:pthread_mutex_init	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:115:5:pthread_mutex_lock	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:125:5:pthread_mutex_unlock	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:165:5:pthread_mutex_destroy	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:176:5:pthread_mutexattr_getprotocol	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:188:5:pthread_mutexattr_gettype	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_mutex.c:199:5:pthread_mutexattr_settype	0	static

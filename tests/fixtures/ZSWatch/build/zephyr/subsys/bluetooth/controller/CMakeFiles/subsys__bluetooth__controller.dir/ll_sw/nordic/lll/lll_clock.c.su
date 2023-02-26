@@ -1,0 +1,11 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:32:13:clock_ready	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:41:12:blocking_on	56	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:57:5:lll_clock_init	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:67:5:lll_clock_deinit	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:75:5:lll_clock_wait	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:100:5:lll_hfclock_on	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:112:5:lll_hfclock_on_wait	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:128:5:lll_hfclock_off	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:144:9:lll_clock_sca_local_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:149:10:lll_clock_ppm_local_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c:154:10:lll_clock_ppm_get	0	static

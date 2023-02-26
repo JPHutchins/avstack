@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_gpio.h:581:35:nrf_gpio_pin_port_decode	8	static
+C:/ncs/v2.2.0/zephyr/drivers/pinctrl/pinctrl_nrf.c:83:5:pinctrl_configure_pins	56	static

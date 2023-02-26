@@ -1,0 +1,9 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:795:13:ticker_op_cb	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:800:13:ticker_match_op_cb	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:827:24:ull_hdr_get_cb	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:640:16:after_match_slot_get.constprop	96	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:81:5:ull_sched_adv_aux_sync_free_slot_get	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:149:5:ull_sched_after_cen_slot_get	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:192:6:ull_sched_mfy_win_offset_use	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:230:6:ull_sched_mfy_free_win_offset_calc	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_sched.c:269:6:ull_sched_mfy_win_offset_select	0	static

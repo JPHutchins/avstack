@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:100:13:pm_resume_devices	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:145:20:pm_state_notify	32	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:166:6:pm_system_resume	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:190:6:pm_state_force	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:204:6:pm_system_suspend	88	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:288:6:pm_notifier_register	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:296:5:pm_notifier_unregister	16	static
+C:/ncs/v2.2.0/zephyr/subsys/pm/pm.c:310:29:pm_state_next_get	0	static

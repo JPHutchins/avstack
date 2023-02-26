@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/timer.c:29:13:zephyr_timer_wrapper	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/timer.c:50:5:timer_create	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/timer.c:91:5:timer_gettime	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/timer.c:125:5:timer_settime	40	static
+C:/ncs/v2.2.0/zephyr/lib/posix/timer.c:186:5:timer_delete	16	static

@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:325:26:suggest_state	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src/misc/lv_mem.h:164:20:lv_memset_00.constprop	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:164:13:lv_imgbtn_constructor	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:56:12:lv_imgbtn_create	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:122:14:lv_imgbtn_get_src_left	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:137:14:lv_imgbtn_get_src_middle	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:151:14:lv_imgbtn_get_src_right	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:356:19:get_state	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:294:13:refr_img	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:79:6:lv_imgbtn_set_src	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:93:6:lv_imgbtn_set_state	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:177:13:lv_imgbtn_event	104	static

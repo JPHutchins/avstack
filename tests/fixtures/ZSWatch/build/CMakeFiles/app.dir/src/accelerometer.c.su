@@ -1,0 +1,9 @@
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/device.h:47:20:device_is_ready	0	static
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:329:13:send_accel_event	8	static
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/log_msg.h:24:20:z_log_msg_static_create.constprop	0	static
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:19:5:accelerometer_init	688	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:68:5:accelerometer_fetch_xyz	120	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:90:5:accelerometer_fetch_num_steps	80	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:130:13:data_ready_xyz	272	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:103:5:accelerometer_fetch_temperature	80	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/accelerometer.c:118:5:accelerometer_reset_step_count	48	dynamic,bounded

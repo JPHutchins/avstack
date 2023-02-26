@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:248:17:lv_lru_hash	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.h:164:20:lv_memset_00	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:291:13:lv_lru_remove_item	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:80:12:lv_lru_create	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:110:6:lv_lru_del	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:146:14:lv_lru_set	48	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:199:14:lv_lru_get	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_lru.c:222:14:lv_lru_remove	32	static

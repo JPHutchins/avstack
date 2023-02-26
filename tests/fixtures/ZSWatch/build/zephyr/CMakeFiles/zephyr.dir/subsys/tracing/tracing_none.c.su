@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/subsys/tracing/tracing_none.c:11:6:sys_trace_isr_enter	0	static
+C:/ncs/v2.2.0/zephyr/subsys/tracing/tracing_none.c:13:6:sys_trace_isr_exit	0	static
+C:/ncs/v2.2.0/zephyr/subsys/tracing/tracing_none.c:15:6:sys_trace_isr_exit_to_scheduler	0	static
+C:/ncs/v2.2.0/zephyr/subsys/tracing/tracing_none.c:17:6:sys_trace_idle	0	static

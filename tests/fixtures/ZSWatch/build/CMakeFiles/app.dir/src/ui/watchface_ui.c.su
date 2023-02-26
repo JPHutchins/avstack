@@ -1,0 +1,13 @@
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:40:13:tick_draw_event_cb	8	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:241:6:watchface_init	8	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:269:6:watchface_remove	0	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:274:6:watchface_set_battery_percent	32	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:287:6:watchface_set_hrm	32	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:300:6:watchface_set_step	32	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:313:6:watchface_set_time	16	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:335:6:watchface_set_num_notifcations	24	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:353:6:watchface_set_ble_connected	0	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:246:6:watchface_show	64	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:373:6:watchface_set_date	64	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:394:21:get_icon_from_weather_code	8	static
+C:/Users/jp/repos/ZSWatch/app/src/ui/watchface_ui.c:362:6:watchface_set_weather	32	static

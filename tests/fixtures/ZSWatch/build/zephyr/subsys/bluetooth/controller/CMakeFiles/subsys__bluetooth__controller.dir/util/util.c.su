@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/util.c:31:9:util_ones_count_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/util.c:65:5:util_aa_le32	32	static

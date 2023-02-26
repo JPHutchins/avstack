@@ -1,0 +1,15 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:236:9:ll_df_set_cl_cte_tx_params	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:314:9:ll_df_set_cl_cte_tx_enable	72	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:549:7:ull_df_iq_report_alloc_peek	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:558:7:ull_df_iq_report_alloc_peek_iter	4	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:563:7:ull_df_iq_report_alloc	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:572:6:ull_df_iq_report_mem_release	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:581:6:ull_iq_report_link_inc_quota	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:588:6:ull_df_rx_iq_report_alloc	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:166:5:ull_df_reset	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:150:5:ull_df_init	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:621:6:ull_df_conn_cfg_is_not_enabled	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:649:6:ull_df_adv_cfg_release	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:1122:9:ll_df_set_conn_cte_tx_params	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:1193:9:ll_df_set_conn_cte_rx_params	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_df.c:1399:6:ll_df_read_ant_inf	16	static

@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/subsys/storage/flash_map/flash_map_layout.c:104:13:get_sectors_cb	16	static
+C:/ncs/v2.2.0/zephyr/subsys/storage/flash_map/flash_map_layout.c:121:5:flash_area_get_sectors	48	static

@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/drivers/sensor/stmemsc/stmemsc_spi.c:17:5:stmemsc_spi_read	64	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/stmemsc/stmemsc_spi.c:42:5:stmemsc_spi_write	40	static

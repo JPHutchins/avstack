@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/drivers/sensor/stmemsc/stmemsc_i2c.c:12:5:stmemsc_i2c_read	48	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/stmemsc/stmemsc_i2c.c:18:5:stmemsc_i2c_write	48	static

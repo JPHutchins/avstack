@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:335:13:show_error	112	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:46:6:lv_draw_img_dsc_init	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:92:9:lv_img_cf_get_px_size	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:137:6:lv_img_cf_is_chroma_keyed	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:160:6:lv_img_cf_has_alpha	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:193:14:lv_img_src_get_type	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:218:6:lv_draw_img_decoded	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_img.c:62:6:lv_draw_img	88	static

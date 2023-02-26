@@ -1,0 +1,17 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:90:13:app_manager_close_button_pressed	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:56:13:app_clicked	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:24:13:delete_application_picker	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:96:13:scroll_event_cb	56	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:43:13:row_unfocused	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:32:13:row_focused	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:252:12:application_manager_init	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:139:18:create_application_list_entry	32	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:84:13:async_app_manager_close	48	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:69:13:async_app_start	48	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:172:13:draw_application_picker	80	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:76:13:async_app_close	48	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:216:6:application_manager_show	0	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:224:6:application_manager_delete	48	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:233:6:application_manager_add_application	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:240:6:application_manager_exit_app	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/application_manager.c:246:6:application_manager_app_close_request	48	dynamic,bounded

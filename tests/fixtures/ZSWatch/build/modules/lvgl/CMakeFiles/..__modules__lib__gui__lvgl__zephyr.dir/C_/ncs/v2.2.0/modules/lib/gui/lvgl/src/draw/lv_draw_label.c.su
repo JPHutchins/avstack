@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_label.c:380:16:hex_char_to_num	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_label.c:55:6:lv_draw_label_dsc_init	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_label.c:364:6:lv_draw_letter	4	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/lv_draw_label.c:77:28:lv_draw_label	248	static

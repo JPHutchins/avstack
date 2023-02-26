@@ -1,0 +1,11 @@
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_color.h:379:24:lv_color_to32	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:119:17:find_oldest_item_life	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:160:17:find_item	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:164:20:lv_memset_00	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:106:17:iterate_cache	40	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:149:17:kill_oldest_item	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:244:6:lv_gradient_free_cache	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:251:6:lv_gradient_set_cache_size	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:305:39:lv_gradient_calculate	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:260:13:lv_gradient_get	64	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_gradient.c:348:6:lv_gradient_cleanup	0	static

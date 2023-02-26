@@ -1,0 +1,5 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_app.c:37:13:fetch_accel_data	16	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_app.c:54:12:accel_app_add	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_app.c:31:13:accel_app_stop	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_app.c:49:13:on_close_accel	0	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_app.c:24:13:accel_app_start	8	static

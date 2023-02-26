@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:53:5:lll_df_init	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:65:5:lll_df_reset	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:76:9:lll_df_ant_num_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:89:6:lll_df_cte_tx_enable	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:130:6:lll_df_conf_cte_tx_disable	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:226:5:lll_df_conf_cte_rx_enable	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:334:6:lll_df_conf_cte_info_parsing_enable	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df.c:379:6:lll_df_cte_tx_configure	8	static

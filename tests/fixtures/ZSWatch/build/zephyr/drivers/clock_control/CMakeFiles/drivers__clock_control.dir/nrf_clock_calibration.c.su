@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:137:13:start_cal_process	8	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:156:13:timeout_handler	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:123:13:start_cycle	16	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:206:13:measure_temperature	32	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:164:13:cal_hf_callback	8	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:238:6:z_nrf_clock_calibration_init	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:251:6:z_nrf_clock_calibration_force_start	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:261:6:z_nrf_clock_calibration_lfclk_started	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:266:6:z_nrf_clock_calibration_lfclk_stopped	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:272:6:z_nrf_clock_calibration_done_handler	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:280:5:z_nrf_clock_calibration_count	0	static
+C:/ncs/v2.2.0/zephyr/drivers/clock_control/nrf_clock_calibration.c:289:5:z_nrf_clock_calibration_skips_count	0	static

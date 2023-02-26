@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:816:12:hci_driver_init	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:713:12:hci_driver_send	72	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:793:12:hci_driver_close	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:590:13:recv_thread	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:262:13:prio_recv_thread	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:754:12:hci_driver_open	88	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci_driver.c:213:6:hci_recv_fifo_reset	8	static

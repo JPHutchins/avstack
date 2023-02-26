@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_tx_pwr.c:46:9:ll_tx_pwr_lvl_get	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_tx_pwr.c:130:9:ll_tx_pwr_lvl_set	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_tx_pwr.c:210:6:ll_tx_pwr_get	0	static

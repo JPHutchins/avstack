@@ -1,0 +1,9 @@
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:110:12:mbox_message_match	12	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:221:12:mbox_message_put	56	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:162:13:mbox_message_dispose	8	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:52:12:init_mbox_module	16	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:89:6:k_mbox_init	0	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:306:5:k_mbox_put	4	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:322:6:k_mbox_async_put	40	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:346:6:k_mbox_data_get	8	static
+C:/ncs/v2.2.0/zephyr/kernel/mailbox.c:393:5:k_mbox_get	56	static

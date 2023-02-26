@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_display_24bit.c:11:6:lvgl_flush_cb_24bit	48	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_display_24bit.c:30:6:lvgl_set_px_cb_24bit	20	static

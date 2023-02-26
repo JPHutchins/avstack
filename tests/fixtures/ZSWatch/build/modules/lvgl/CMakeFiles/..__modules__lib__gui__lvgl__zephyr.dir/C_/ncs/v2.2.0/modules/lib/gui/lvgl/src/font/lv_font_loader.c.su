@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/font/lv_font_loader.c:194:21:read_bits	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/font/lv_font_loader.c:225:12:read_label	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/font/lv_font_loader.c:117:6:lv_font_free	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/font/lv_font_loader.c:587:9:load_kern	56	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/font/lv_font_loader.c:86:13:lv_font_load	144	static

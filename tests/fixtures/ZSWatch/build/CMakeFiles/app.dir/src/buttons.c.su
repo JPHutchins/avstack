@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/gpio.h:1251:19:gpio_pin_get_dt	24	static
+C:/Users/jp/repos/ZSWatch/app/src/buttons.c:79:13:handleButtonThread	64	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/buttons.c:66:13:buttonPressedIsr	32	static
+C:/Users/jp/repos/ZSWatch/app/src/buttons.c:39:6:buttonsInit	72	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/buttons.c:61:5:button_read	0	static

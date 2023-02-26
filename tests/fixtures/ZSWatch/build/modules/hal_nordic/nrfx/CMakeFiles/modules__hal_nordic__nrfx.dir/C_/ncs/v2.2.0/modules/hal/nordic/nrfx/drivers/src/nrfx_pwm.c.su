@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:220:17:start_playback	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:449:13:irq_handler	16	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_gpio.h:581:35:nrf_gpio_pin_port_decode	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/hal/nrf_pwm.h:684:24:nrf_pwm_sequence_set	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:135:12:nrfx_pwm_init	64	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:199:6:nrfx_pwm_uninit	32	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:294:10:nrfx_pwm_simple_playback	24	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:339:10:nrfx_pwm_complex_playback	24	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:423:6:nrfx_pwm_is_stopped	8	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:386:6:nrfx_pwm_stop	16	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:512:6:nrfx_pwm_0_irq_handler	0	static
+C:/ncs/v2.2.0/modules/hal/nordic/nrfx/drivers/src/nrfx_pwm.c:519:6:nrfx_pwm_1_irq_handler	0	static

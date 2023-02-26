@@ -1,0 +1,10 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_rect.c:331:13:draw_bg_img	88	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:154:20:lv_memset	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:164:20:lv_memset_00	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:174:20:lv_memset_ff	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_mem.h:132:22:lv_memcpy.isra	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_rect.c:1031:35:shadow_blur_corner	64	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_rect.c:100:13:draw_bg	144	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_rect.c:85:6:lv_draw_sw_bg	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_rect.c:1146:6:draw_border_generic	192	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/draw/sw/lv_draw_sw_rect.c:69:6:lv_draw_sw_rect	208	static

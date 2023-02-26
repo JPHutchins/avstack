@@ -1,0 +1,11 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.h:164:20:lv_memset_00	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:40:6:lv_style_init	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:54:6:lv_style_reset	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:70:17:lv_style_register_prop	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:77:6:lv_style_remove_prop	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:211:10:lv_style_get_prop	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:216:6:lv_style_transition_dsc_init	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:231:18:lv_style_prop_get_default	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:284:6:lv_style_is_empty	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:291:9:_lv_style_get_prop_group	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_style.c:138:6:lv_style_set_prop	24	static

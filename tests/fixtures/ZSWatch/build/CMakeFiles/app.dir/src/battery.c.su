@@ -1,0 +1,4 @@
+C:/Users/jp/repos/ZSWatch/app/src/battery.c:128:12:battery_setup	128	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/battery.c:139:5:battery_measure_enable	8	static
+C:/Users/jp/repos/ZSWatch/app/src/battery.c:154:5:battery_sample	24	static
+C:/Users/jp/repos/ZSWatch/app/src/battery.c:188:14:battery_level_pptt	8	static

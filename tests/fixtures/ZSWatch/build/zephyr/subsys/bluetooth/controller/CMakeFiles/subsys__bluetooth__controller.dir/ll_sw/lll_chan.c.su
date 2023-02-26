@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/lll_chan.c:35:9:lll_chan_sel_1	12	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/lll_chan.c:61:10:lll_chan_id	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/lll_chan.c:73:9:lll_chan_sel_2	20	static

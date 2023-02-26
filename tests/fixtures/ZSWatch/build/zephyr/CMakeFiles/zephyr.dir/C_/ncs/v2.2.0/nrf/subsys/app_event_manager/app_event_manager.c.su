@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/nrf/subsys/app_event_manager/app_event_manager.c:117:15:app_event_manager_alloc	32	static
+C:/ncs/v2.2.0/nrf/subsys/app_event_manager/app_event_manager.c:135:13:app_event_manager_free	0	static
+C:/ncs/v2.2.0/nrf/subsys/app_event_manager/app_event_manager.c:140:13:event_processor_fn	72	dynamic,bounded
+C:/ncs/v2.2.0/nrf/subsys/app_event_manager/app_event_manager.c:207:6:_event_submit	16	static
+C:/ncs/v2.2.0/nrf/subsys/app_event_manager/app_event_manager.c:225:5:app_event_manager_init	24	static

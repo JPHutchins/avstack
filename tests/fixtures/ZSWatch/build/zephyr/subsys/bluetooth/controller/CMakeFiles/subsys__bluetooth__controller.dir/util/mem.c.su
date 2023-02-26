@@ -1,0 +1,9 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:15:6:mem_init	4	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:40:7:mem_acquire	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:68:6:mem_release	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:87:10:mem_free_count_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:100:7:mem_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:105:10:mem_index_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:114:6:mem_rcopy	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:126:9:mem_nz	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/mem.c:140:10:mem_ut	152	static

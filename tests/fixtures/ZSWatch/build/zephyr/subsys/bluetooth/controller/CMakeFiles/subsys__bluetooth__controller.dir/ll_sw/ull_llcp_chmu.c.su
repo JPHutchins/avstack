@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_chmu.c:310:6:llcp_rp_chmu_rx	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_chmu.c:328:6:llcp_rp_chmu_init_proc	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_chmu.c:333:6:llcp_rp_chmu_run	16	static

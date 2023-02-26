@@ -1,0 +1,16 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:508:16:lv_txt_utf8_size	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:587:17:lv_txt_utf8_next	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:662:17:lv_txt_utf8_prev	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:695:17:lv_txt_utf8_get_byte_id	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:715:17:lv_txt_utf8_get_char_id	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:734:17:lv_txt_utf8_get_length	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:526:17:lv_txt_unicode_to_utf8	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:559:17:lv_txt_utf8_conv_wc	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:381:6:_lv_txt_is_cmd	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:278:10:_lv_txt_get_next_line	104	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:412:6:_lv_txt_ins	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:433:6:_lv_txt_cut	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:449:8:_lv_txt_set_text_vfmt	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:492:6:_lv_txt_encoded_letter_next_2	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:342:12:lv_txt_get_width	48	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_txt.c:91:6:lv_txt_get_size	64	static

@@ -1,0 +1,17 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1064:13:rp_comm_ntf	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:141:13:lp_comm_tx	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:964:13:rp_comm_tx	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1097:13:rp_comm_send_rsp.constprop	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1329:13:rp_comm_execute_fsm	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:354:13:lp_comm_ntf	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:403:13:lp_comm_complete.constprop	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:522:13:lp_comm_send_req.constprop.isra	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:830:13:lp_comm_execute_fsm	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:855:6:llcp_lp_comm_tx_ack	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:860:6:llcp_lp_comm_rx	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:865:6:llcp_lp_comm_init_proc	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:870:6:llcp_lp_comm_run	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1359:6:llcp_rp_comm_rx	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1364:6:llcp_rp_comm_tx_ack	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1369:6:llcp_rp_comm_init_proc	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_llcp_common.c:1374:6:llcp_rp_comm_run	0	static

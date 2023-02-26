@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/i2c.h:639:19:z_impl_i2c_transfer	4	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/i2c.h:1249:19:i2c_reg_write_byte_dt	24	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/max30101/max30101.c:48:12:max30101_channel_get	32	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/max30101/max30101.c:15:12:max30101_sample_fetch	64	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/max30101/max30101.c:96:12:max30101_init	96	dynamic,bounded

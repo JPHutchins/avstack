@@ -1,0 +1,6 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_ui.c:95:13:slider_event_cb	24	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_ui.c:110:13:switch_event_cb	24	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_ui.c:39:18:create_text	32	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_ui.c:15:13:close_button_pressed	16	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_ui.c:126:6:lv_settings_create	72	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/settings/settings_ui.c:201:6:settings_ui_remove	8	static

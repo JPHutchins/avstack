@@ -1,0 +1,11 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:537:13:lv_mem_walker	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:84:6:lv_mem_init	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:110:6:lv_mem_deinit	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:159:6:lv_mem_free	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:207:10:lv_mem_test	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:234:6:lv_mem_monitor	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:123:8:lv_mem_alloc	40	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:182:8:lv_mem_realloc	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:262:8:lv_mem_buf_get	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:318:6:lv_mem_buf_release	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/misc/lv_mem.c:335:6:lv_mem_buf_free_all	24	static

@@ -1,0 +1,6 @@
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/log_msg.h:24:20:z_log_msg_static_create.constprop	0	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/cortex_m/fault.c:383:12:bus_fault.constprop	80	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/cortex_m/fault.c:539:17:usage_fault.constprop	32	static
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/cortex_m/fault.c:229:17:mem_manage_fault	88	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/cortex_m/fault.c:1036:6:z_arm_fault	144	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/cortex_m/fault.c:1107:6:z_arm_fault_init	0	static

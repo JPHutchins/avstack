@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/dbuf.c:17:7:dbuf_alloc	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/util/dbuf.c:61:7:dbuf_latest_get	0	static

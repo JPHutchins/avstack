@@ -1,0 +1,3 @@
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_color.h:379:24:lv_color_to32	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_display_32bit.c:11:6:lvgl_flush_cb_32bit	48	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_display_32bit.c:31:6:lvgl_set_px_cb_32bit	24	static

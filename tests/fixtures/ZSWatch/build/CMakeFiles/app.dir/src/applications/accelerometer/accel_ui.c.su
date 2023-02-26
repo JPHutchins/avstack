@@ -1,0 +1,4 @@
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_ui.c:117:13:close_button_pressed	0	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_ui.c:20:6:accel_ui_show	32	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_ui.c:88:6:accel_ui_remove	8	static
+C:/Users/jp/repos/ZSWatch/app/src/applications/accelerometer/accel_ui.c:97:6:accel_ui_set_values	32	static

@@ -1,0 +1,16 @@
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:62:16:elapsed	0	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:67:16:next_timeout	8	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:53:13:remove_timeout	12	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:165:18:timeout_rem	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:88:6:z_add_timeout	32	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:150:5:z_abort_timeout	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:183:11:z_timeout_remaining	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:194:11:z_timeout_expires	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:205:9:z_get_next_timeout_expiry	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:215:6:z_set_timeout_expiry	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:239:6:sys_clock_announce	32	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:287:9:sys_clock_tick_get	16	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:297:10:sys_clock_tick_get_32	8	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:306:9:z_impl_k_uptime_ticks	0	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:319:6:z_impl_k_busy_wait	0	static
+C:/ncs/v2.2.0/zephyr/kernel/timeout.c:364:10:sys_clock_timeout_end_calc	16	static

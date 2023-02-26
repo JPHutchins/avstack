@@ -1,0 +1,2 @@
+C:/ncs/v2.2.0/zephyr/soc/arm/nordic_nrf/nrf52/power.c:14:13:pm_state_set	0	static
+C:/ncs/v2.2.0/zephyr/soc/arm/nordic_nrf/nrf52/power.c:29:13:pm_state_exit_post_ops	0	static

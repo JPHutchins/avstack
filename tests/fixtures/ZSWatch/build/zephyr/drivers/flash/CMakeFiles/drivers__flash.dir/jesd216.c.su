@@ -1,0 +1,8 @@
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:13:13:extract_instr	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:26:5:jesd216_bfp_read_support	8	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:123:5:jesd216_bfp_erase	8	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:150:5:jesd216_bfp_erase_type_times	8	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:194:5:jesd216_bfp_decode_dw11	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:248:5:jesd216_bfp_decode_dw14	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:290:5:jesd216_bfp_decode_dw15	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/jesd216.c:312:5:jesd216_bfp_decode_dw16	0	static

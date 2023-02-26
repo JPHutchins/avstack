@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/zephyr/kernel/device.c:106:12:device_visitor	40	static
+C:/ncs/v2.2.0/zephyr/kernel/device.c:23:6:z_device_state_init	0	static
+C:/ncs/v2.2.0/zephyr/kernel/device.c:87:8:z_device_get_all_static	0	static
+C:/ncs/v2.2.0/zephyr/kernel/device.c:93:6:z_device_is_ready	0	static
+C:/ncs/v2.2.0/zephyr/kernel/device.c:33:22:z_impl_device_get_binding	16	static
+C:/ncs/v2.2.0/zephyr/kernel/device.c:125:5:device_required_foreach	12	static
+C:/ncs/v2.2.0/zephyr/kernel/device.c:135:5:device_supported_foreach	12	static

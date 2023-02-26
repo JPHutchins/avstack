@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_packaged.c:233:5:cbvprintf_package	104	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_packaged.c:815:5:cbprintf_package	28	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_packaged.c:827:5:cbpprintf_external	32	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_packaged.c:881:6:is_ptr	16	static
+C:/ncs/v2.2.0/zephyr/lib/os/cbprintf_packaged.c:908:5:cbprintf_package_convert	168	dynamic,bounded

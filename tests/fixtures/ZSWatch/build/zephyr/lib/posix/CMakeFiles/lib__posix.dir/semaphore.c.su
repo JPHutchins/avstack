@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:15:5:sem_destroy	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:36:5:sem_getvalue	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:52:5:sem_init	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:75:5:sem_post	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:91:5:sem_timedwait	32	static
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:130:5:sem_trywait	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/semaphore.c:145:5:sem_wait	8	static

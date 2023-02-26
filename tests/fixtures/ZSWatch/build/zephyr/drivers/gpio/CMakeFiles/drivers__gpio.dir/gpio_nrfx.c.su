@@ -1,0 +1,10 @@
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:163:12:gpio_nrfx_port_get_raw	0	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:173:12:gpio_nrfx_port_set_masked_raw	0	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:188:12:gpio_nrfx_port_set_bits_raw	0	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:198:12:gpio_nrfx_port_clear_bits_raw	0	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:208:12:gpio_nrfx_port_toggle_bits	0	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:281:12:gpio_nrfx_manage_callback	8	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:235:12:gpio_nrfx_pin_interrupt_configure	32	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:363:12:gpio_nrfx_init	8	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:342:13:nrfx_gpio_handler	16	static
+C:/ncs/v2.2.0/zephyr/drivers/gpio/gpio_nrfx.c:85:12:gpio_nrfx_pin_configure	40	static

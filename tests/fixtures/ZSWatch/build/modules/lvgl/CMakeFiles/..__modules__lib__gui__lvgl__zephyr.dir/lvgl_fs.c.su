@@ -1,0 +1,12 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:13:13:lvgl_fs_ready	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:18:20:errno_to_lv_fs_res	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:180:20:lvgl_fs_dir_read	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:189:20:lvgl_fs_dir_close	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:158:14:lvgl_fs_dir_open	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:151:20:lvgl_fs_tell	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:129:20:lvgl_fs_seek	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:105:20:lvgl_fs_write	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:88:20:lvgl_fs_read	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:80:20:lvgl_fs_close	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:52:14:lvgl_fs_open	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_fs.c:200:6:lvgl_fs_init	8	static

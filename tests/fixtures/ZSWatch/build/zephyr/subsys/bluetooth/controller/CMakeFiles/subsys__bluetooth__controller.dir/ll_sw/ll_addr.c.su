@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c:37:9:ll_addr_set	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c:71:10:ll_addr_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c:84:10:ll_addr_read	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c:96:6:bt_ctlr_set_public_addr	0	static

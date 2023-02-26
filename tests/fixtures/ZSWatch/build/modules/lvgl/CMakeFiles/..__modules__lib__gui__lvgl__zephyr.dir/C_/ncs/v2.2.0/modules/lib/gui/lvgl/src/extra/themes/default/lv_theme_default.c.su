@@ -1,0 +1,14 @@
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_color.h:443:48:lv_color_mix	20	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_color.h:693:26:lv_color_white	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:692:13:theme_apply	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:198:19:grey_filter_cb	16	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_style.h:496:20:lv_style_set_pad_gap	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:192:19:dark_color_filter_cb	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_style.h:484:20:lv_style_set_pad_hor	16	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_style.h:490:20:lv_style_set_pad_ver	16	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src\misc\lv_style.h:476:20:lv_style_set_pad_all	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:1164:13:style_init_reset	0	static
+c:\ncs\v2.2.0\modules\lib\gui\lvgl\src/core/lv_disp.h:235:26:lv_disp_dpx.part.0	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:642:14:lv_theme_default_init	56	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:677:14:lv_theme_default_get	0	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/themes/default/lv_theme_default.c:686:6:lv_theme_default_is_inited	0	static

@@ -1,0 +1,2 @@
+osource "C:/Users/jp/repos/ZSWatch/app/boards/shields/*/Kconfig.defconfig"
+osource "C:/ncs/v2.2.0/nrf/boards/shields/*/Kconfig.defconfig"

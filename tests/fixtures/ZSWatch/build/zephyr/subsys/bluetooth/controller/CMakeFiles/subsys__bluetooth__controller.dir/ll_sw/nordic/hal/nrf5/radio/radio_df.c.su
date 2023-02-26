@@ -1,0 +1,16 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:70:9:radio_df_pdu_antenna_switch_pattern_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:227:9:radio_df_ant_num_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:244:6:radio_df_mode_set_aoa	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:249:6:radio_df_mode_set_aod	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:323:6:radio_df_cte_tx_aod_2us_set	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:336:6:radio_df_cte_tx_aod_4us_set	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:349:6:radio_df_cte_tx_aoa_set	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:362:6:radio_df_cte_rx_2us_switching	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:373:6:radio_df_cte_rx_4us_switching	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:384:6:radio_df_ant_switch_pattern_clear	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:389:6:radio_df_reset	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:396:6:radio_switch_complete_and_phy_end_b2b_tx	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:409:6:radio_df_iq_data_packet_set	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:414:10:radio_df_iq_samples_amount_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:419:9:radio_df_cte_status_get	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/radio/radio_df.c:424:6:radio_df_cte_ready	0	static

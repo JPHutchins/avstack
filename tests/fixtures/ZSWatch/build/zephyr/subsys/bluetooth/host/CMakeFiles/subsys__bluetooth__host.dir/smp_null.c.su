@@ -1,0 +1,6 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/smp_null.c:42:12:bt_smp_recv	32	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/smp_null.c:73:12:bt_smp_accept.part.0	40	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/smp_null.c:73:12:bt_smp_accept	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/smp_null.c:32:5:bt_smp_sign_verify	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/smp_null.c:37:5:bt_smp_sign	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/smp_null.c:103:5:bt_smp_init	0	static

@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/gpio.h:755:19:gpio_pin_configure_dt	16	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/gpio.h:1340:19:gpio_pin_set_dt	8	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/drivers/gpio.h:1223:19:gpio_pin_get	24	static
+C:/ncs/v2.2.0/zephyr/include/zephyr/kernel.h:439:23:k_msleep.isra	8	static
+C:/Users/jp/repos/ZSWatch/app/src/gpio_debug.c:45:6:gpio_debug_init	16	static
+C:/Users/jp/repos/ZSWatch/app/src/gpio_debug.c:76:6:gpio_debug_test_all	88	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/gpio_debug.c:127:6:gpio_debug_test	16	static

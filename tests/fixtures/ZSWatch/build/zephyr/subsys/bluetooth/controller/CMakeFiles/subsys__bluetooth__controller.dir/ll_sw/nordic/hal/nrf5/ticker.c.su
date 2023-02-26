@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ticker.c:39:9:hal_ticker_instance0_caller_id_get	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ticker.c:51:6:hal_ticker_instance0_sched	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ticker.c:197:6:hal_ticker_instance0_trigger_set	0	static

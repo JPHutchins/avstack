@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/drivers/sensor/nrf5/temp_nrf5.c:33:13:hfclk_on_callback	0	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/nrf5/temp_nrf5.c:77:12:temp_nrf5_channel_get	0	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/nrf5/temp_nrf5.c:98:13:temp_nrf5_isr	0	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/nrf5/temp_nrf5.c:41:12:temp_nrf5_sample_fetch	32	static
+C:/ncs/v2.2.0/zephyr/drivers/sensor/nrf5/temp_nrf5.c:112:12:temp_nrf5_init	8	static

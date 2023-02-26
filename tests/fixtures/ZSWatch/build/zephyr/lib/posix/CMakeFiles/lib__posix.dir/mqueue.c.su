@@ -1,0 +1,15 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:355:23:find_in_list	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:374:16:send_message	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:401:16:receive_message	16	static
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/kernel.h:1061:20:k_sem_give.constprop	0	static
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/kernel.h:1044:19:k_sem_take.constprop.isra	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:429:13:remove_mq	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:60:7:mq_open	44	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:191:5:mq_close	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:216:5:mq_unlink	16	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:243:5:mq_send	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:258:5:mq_timedsend	32	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:274:5:mq_receive	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:289:5:mq_timedreceive	32	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:303:5:mq_getattr	32	static
+C:/ncs/v2.2.0/zephyr/lib/posix/mqueue.c:328:5:mq_setattr	16	static

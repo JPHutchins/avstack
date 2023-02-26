@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/clock.c:28:5:z_impl_clock_gettime	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/clock.c:85:5:clock_settime	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/clock.c:114:5:gettimeofday	24	static

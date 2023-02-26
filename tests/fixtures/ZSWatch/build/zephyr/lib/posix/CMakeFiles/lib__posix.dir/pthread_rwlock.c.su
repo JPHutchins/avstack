@@ -1,0 +1,11 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:230:17:write_lock_acquire	32	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:215:17:read_lock_acquire	24	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:25:5:pthread_rwlock_init	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:42:5:pthread_rwlock_destroy	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:68:5:pthread_rwlock_rdlock	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:85:5:pthread_rwlock_timedrdlock	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:113:5:pthread_rwlock_tryrdlock	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:130:5:pthread_rwlock_wrlock	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:147:5:pthread_rwlock_timedwrlock	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:175:5:pthread_rwlock_trywrlock	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_rwlock.c:190:5:pthread_rwlock_unlock	8	static

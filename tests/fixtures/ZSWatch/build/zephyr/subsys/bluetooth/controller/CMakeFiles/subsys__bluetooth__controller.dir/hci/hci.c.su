@@ -1,0 +1,16 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:8286:13:le_remote_feat_complete	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:244:12:ll_adv_cmds_is_ext	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:306:7:hci_cmd_complete	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:4728:16:hci_vendor_read_static_addr	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:4777:13:hci_vendor_read_key_hierarchy_roots	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:5339:5:hci_vendor_cmd_handle_common	48	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/nordic/hci_vendor.h:22:12:hci_vendor_cmd_handle	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:5413:17:hci_cmd_handle	112	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:5490:5:hci_acl_handle	56	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:7875:6:hci_disconn_complete_encode	24	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:7892:6:hci_disconn_complete_process	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:8479:6:hci_acl_encode	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:8523:6:hci_evt_encode	152	dynamic,bounded
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:8536:6:hci_num_cmplt_encode	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:8556:9:hci_get_class	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/hci/hci.c:8707:6:hci_init	8	static

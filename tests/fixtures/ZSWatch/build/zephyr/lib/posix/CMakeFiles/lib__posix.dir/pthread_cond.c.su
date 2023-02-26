@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_cond.c:16:12:cond_wait	48	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_cond.c:42:5:pthread_cond_signal	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_cond.c:48:5:pthread_cond_broadcast	8	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_cond.c:54:5:pthread_cond_wait	0	static
+C:/ncs/v2.2.0/zephyr/lib/posix/pthread_cond.c:59:5:pthread_cond_timedwait	24	static

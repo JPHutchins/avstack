@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/others/snapshot/lv_snapshot.c:82:10:lv_snapshot_take_to_buf.part.0	480	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/others/snapshot/lv_snapshot.c:46:10:lv_snapshot_buf_size_needed	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/others/snapshot/lv_snapshot.c:82:10:lv_snapshot_take_to_buf	24	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/others/snapshot/lv_snapshot.c:161:16:lv_snapshot_take	32	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/src/extra/others/snapshot/lv_snapshot.c:192:6:lv_snapshot_free	8	static

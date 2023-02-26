@@ -1,0 +1,7 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:9:6:ull_tx_q_init	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:16:6:ull_tx_q_pause_data	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:21:6:ull_tx_q_resume_data	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:33:6:ull_tx_q_enqueue_data	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:48:6:ull_tx_q_enqueue_ctrl	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:54:17:ull_tx_q_peek	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/ull_tx_queue.c:63:17:ull_tx_q_dequeue	0	static

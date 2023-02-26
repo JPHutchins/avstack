@@ -1,0 +1,4 @@
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_mem.c:54:12:lvgl_heap_init	8	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_mem.c:21:7:lvgl_malloc	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_mem.c:33:7:lvgl_realloc	16	static
+C:/ncs/v2.2.0/modules/lib/gui/lvgl/zephyr/lvgl_mem.c:45:6:lvgl_free	16	static

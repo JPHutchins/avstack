@@ -1,0 +1,3 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/crypto/crypto.c:17:5:bt_rand	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/crypto/crypto.c:22:5:bt_encrypt_le	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/crypto/crypto.c:35:5:bt_encrypt_be	8	static

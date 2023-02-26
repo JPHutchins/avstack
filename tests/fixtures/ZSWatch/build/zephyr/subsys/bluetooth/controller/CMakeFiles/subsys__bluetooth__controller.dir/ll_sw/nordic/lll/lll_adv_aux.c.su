@@ -1,0 +1,9 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:319:13:isr_done	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:406:13:isr_tx_rx	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:795:13:isr_tx_connect_rsp	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:109:12:prepare_cb	40	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:490:13:isr_rx	80	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:65:5:lll_adv_aux_init	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:77:5:lll_adv_aux_reset	0	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:89:6:lll_adv_aux_prepare	16	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c:100:6:lll_adv_aux_pback_prepare	0	static

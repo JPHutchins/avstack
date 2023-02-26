@@ -1,0 +1,5 @@
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/direction.c:988:12:bt_df_set_adv_cte_tx_enabled	48	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/direction.c:932:5:le_df_init	56	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/direction.c:955:5:bt_df_set_adv_cte_tx_param	56	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/direction.c:1005:5:bt_df_adv_cte_tx_enable	8	static
+C:/ncs/v2.2.0/zephyr/subsys/bluetooth/host/direction.c:1011:5:bt_df_adv_cte_tx_disable	8	static

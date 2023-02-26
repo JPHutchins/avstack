@@ -1,0 +1,8 @@
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:216:13:disconnected	0	static
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:69:12:watchface_app_init	8	static
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:221:13:app_event_handler	8	static
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:205:13:connected	48	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:171:12:read_battery	120	dynamic,bounded
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:96:6:general_work	128	static
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:81:6:watchface_app_start	8	static
+C:/Users/jp/repos/ZSWatch/app/src/watchface_app.c:87:6:watchface_app_stop	8	static

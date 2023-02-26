@@ -1,0 +1,14 @@
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:1260:13:spi_nor_pages_layout	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:1281:1:flash_nor_get_parameters	0	static
+C:/Users/jp/repos/ZSWatch/app/build/zephyr/include/generated/syscalls/log_msg.h:24:20:z_log_msg_static_create.constprop	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:483:13:release_device.isra	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:465:13:acquire_device.isra	0	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:292:12:spi_nor_access	64	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:840:12:spi_nor_sfdp_read	32	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:821:12:spi_nor_write_protection_set	16	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:854:12:spi_nor_read_jedec_id	24	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:662:12:spi_nor_read	32	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:376:12:spi_nor_wait_until_ready.isra	32	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:681:12:spi_nor_write	48	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:736:12:spi_nor_erase	48	static
+C:/ncs/v2.2.0/zephyr/drivers/flash/spi_nor.c:1247:12:spi_nor_init	552	dynamic
