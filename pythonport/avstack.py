@@ -5,6 +5,36 @@ Copyright (C) 2023 J.P. Hutchins <jphutchins@gmail.com>
 
 See original/avstack.pl for the original license text.
 See LICENSE for the updated license text.
+
+Usage
+-----
+
+This script requires that you compile your code with -fstack-usage.
+This results in GCC generating a .su file for each .o file. Once you
+have these, do:
+
+   python3 ./avstack.py <object files>
+
+This will disassemble .o files to construct a call graph, and read
+frame size information from .su. The call graph is traced to find, for
+each function:
+
+   - Call height: the maximum call height of any callee, plus 1
+     (defined to be 1 for any function which has no callees).
+
+   - Inherited frame: the maximum *inherited* frame of any callee, plus
+     the GCC-calculated frame size of the function in question.
+
+Using these two pieces of information, we calculate a cost (estimated
+peak stack usage) for calling the function. Functions are then listed
+on stdout in decreasing order of cost.
+
+Functions which are recursive are marked with an 'R' to the left of
+them. Their cost is calculated for a single level of recursion.
+
+The peak stack usage of your entire program can usually be estimated
+as the stack cost of "main", plus the maximum stack cost of any
+interrupt handler which might execute.
 """
 
 import re
