@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0037)https://dlbeer.co.nz/oss/avstack.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="alternate" type="application/rss+xml" title="Daniel Beer" href="https://dlbeer.co.nz/feed.rss">
+  <title>avstack.pl</title>
+<style>
+body {
+    border: 0px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    max-width: 800px;
+
+    font-family: serif;
+    font-size: 11pt;
+}
+
+a, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00005a;
+}
+
+#top {
+    border-bottom: 2px solid #007280;
+    padding-bottom: 0.5em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#content {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #00005a;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 21px; }
+h3 { font-size: 16px; }
+
+p.caption {
+    font-size: 11px;
+}
+
+code, pre {
+    font-size: 11px;
+    font-family: 'Courier New', monospace;
+}
+
+div.figure > img {
+    display: block;
+}
+
+div.figure, pre {
+    margin-left: 40px;
+}
+
+/* Syntax highlighting */
+code > span.kw, code > span.dt {
+    font-weight: bold;
+    color: #a00000;
+}
+
+code > span.ot {
+    color: #a00000;
+}
+
+code > span.co {
+    color: #0000a0;
+}
+
+.posting {
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 100%;
+}
+
+.posting-title {
+    font-weight: bold;
+    display: block;
+}
+
+.posting-date {
+    font-size: 80%;
+    display: block;
+}
+</style>
+</head>
+<body>
+<div id="top">
+<a href="https://dlbeer.co.nz/index.html">Daniel Beer</a>
+<span style="float: right; display: inline-block;">
+<a href="https://dlbeer.co.nz/feed.atom">Atom</a> |
+<a href="https://dlbeer.co.nz/feed.rss">RSS</a> |
+<a href="https://dlbeer.co.nz/about.html">About</a>
+</span>
+</div>
+<div id="content">
+<h1 id="avstack.pl">avstack.pl</h1>
+<p>dlbeer@gmail.com<br>
+31 May 2013 (updated 24 Aug 2015)</p>
+<p>When developing for memory constrained systems, it’s useful to know at compile-time that the available memory is sufficient for your application firmware. Dynamic allocation is usually avoided, and the size of statically allocated memory in the <code>.data</code> and <code>.bss</code> sections can be easily inspected with GNU <code>size</code> or a similary tool. This leaves one problem: stack use. The stack grows and shrinks dynamically at runtime, but under some circumstances, the peak stack use can be statically analyzed.</p>
+<ul>
+<li><a href="https://dlbeer.co.nz/downloads/avstack.pl">avstack.pl</a></li>
+<li><a href="https://dlbeer.co.nz/downloads/avstack-2013-04-22.pl">avstack-2013-04-22.pl</a> (older version)</li>
+</ul>
+<p>The script linked above is a static stack checker, intended for use with a recent-ish version of <a href="http://gcc.gnu.org/wiki/avr-gcc">AVR-GCC</a>. In order to use it, you must ensure that your object files are compiled with <code>-fstack-usage</code>. This causes GCC to generate a <code>.su</code> file for every <code>.o</code> file. <a href="http://gcc.gnu.org/onlinedocs/gnat_ugn_unw/Static-Stack-Usage-Analysis.html">These files</a> contain information on the size of the stack frame for each function compiled in the <code>.o</code> file. For example:</p>
+<pre><code>sha1.c:43:13:mix_w      0       static
+sha1.c:54:13:rot_left   0       static
+sha1.c:69:13:rot_right  0       static
+sha1.c:178:6:sha1_init  0       static
+sha1.c:183:6:sha1_next  65      static
+sha1.c:192:6:sha1_final 6       static</code></pre>
+<p>Once you have these files, invoke <code>avstack.pl</code>, passing as arguments the names of all <code>.o</code> files that will be linked into your binary. The <code>.su</code> files are assumed to be located in the same directories as their corresponding <code>.o</code> files.</p>
+<p>The script reads all <code>.su</code> files, and disassembles all <code>.o</code> files, including relocation data. The disassemblies are parsed and used to construct a call graph. Multiple functions in different translation units with the same name don’t cause problems, provided there are no global namespace collisions. Information will appear on any unresolvable or ambiguous references.</p>
+<p>Next, the call graph is traced to find the peak stack usage of all functions. This is calculated for each function as the maximum stack usage of any of its callees, plus its own stack frame, plus some call-cost constant (not included in GCC’s analysis).</p>
+<p>Here’s an example of the output produced:</p>
+<pre><code>$ ./avstack.pl */*.o
+  Func                               Cost    Frame  Height
+------------------------------------------------------------------------
+&gt; main                                235       90        4
+  prng_next                           145       72        3
+  sha1_final                           83       10        3
+  sha1_next                            73       69        2
+  __vector_16                          28       20        3
+&gt; INTERRUPT                            28        0        4
+  clock_signal_tick                     8        4        2
+  clock_iterate                         8        4        2
+  clock_init                            4        4        1
+  led_init                              4        4        1
+  led_set                               4        4        1
+&gt; led_get                               4        4        1
+  rot_right                             4        4        1
+  mix_w                                 4        4        1
+  prng_init                             4        4        1
+  clock_signal_pps                      4        4        1
+  clock_get_raw                         4        4        1
+  clock_get                             4        4        1
+  prng_stir                             4        4        1
+  rot_left                              4        4        1
+  sha1_init                             4        4        1
+  led_slot_clock_tick                   4        4        1
+
+The following functions were not resolved:
+  memcpy_P</code></pre>
+<p>The columns are:</p>
+<ul>
+<li><strong>Cost</strong>: peak stack usage during a call to the function.</li>
+<li><strong>Frame</strong>: stack frame size, obtained from the <code>.su</code> file, plus the call-cost constant.</li>
+<li><strong>Height</strong>: height in call graph – calculated as maximum height of any callee, plus one.</li>
+</ul>
+<p>Indicators to the left of the function name indicate features of the call graph. A <code>&gt;</code> indicates that the function has no callee. This could be because it’s an entry point (like <code>main</code> or an interrupt vector), because the function is called dynamically through a function pointer, or simply that it’s unused. An <code>R</code> indicates that the function is recursive, and the cost estimate is for a single level of recursion. Multiple functions with the same name are distinguished in the listing by appending a suffix of the form <code>@filename.o</code>.</p>
+<p>You can customize this script by altering two variables near the beginning:</p>
+<pre><code>my $objdump = "avr-objdump";
+my $call_cost = 4;</code></pre>
+<p>Note that making sense of the output of the stack analysis still requires you to know something about how your program runs. For example, in many programs, the actual peak stack use would be the cost of <code>main</code>, plus the maximum cost of any interrupt handler that might execute. You will also need to take into account dynamically invoked functions, if you have any.</p>
+<p>To make things easier, there is a processing section in which fake nodes and edges can be added to the call graph to account for dynamic behaviour. For example, the script currently contains in this section, to represent interrupt execution:</p>
+<pre><code>$call_graph{"INTERRUPT"} = {};
+
+foreach (keys %call_graph) {
+    $call_graph{"INTERRUPT"}-&gt;{$_} = 1 if /^__vector_/;
+}</code></pre>
+<h2 id="use-with-c">Use with C++</h2>
+<p>Updated: 24 Aug 2015</p>
+<p>Unfortunately, GCC uses “printable” names in the output for <code>-fstack-usage</code>. For example, the function:</p>
+<pre><code>namespace test {
+
+uint32_t crc32_ieee802_3(const uint8_t *data, size_t len,
+                         uint32_t crc = 0)
+{
+    ...
+}
+
+}</code></pre>
+<p>Gets listed as:</p>
+<pre><code>foo.cpp:6:10:uint32_t test::crc32_ieee802_3(const uint8_t*, size_t, uint32_t)   32      static</code></pre>
+<p>This is difficult to match up with the disassembler output. Using <code>c++filt</code> doesn’t help, because it doesn’t know anything about typedefs (<code>uint8_t</code> becomes <code>unsigned char</code>, for example).</p>
+<p>I’ve prepared the following patches for two versions of GCC. They’re independent of language and target:</p>
+<ul>
+<li><a href="https://dlbeer.co.nz/downloads/gcc-4.7.2-mangled-stack-usage.patch">gcc-4.7.2-mangled-stack-usage.patch</a></li>
+<li><a href="https://dlbeer.co.nz/downloads/gcc-4.9.2-mangled-stack-usage.patch">gcc-4.9.2-mangled-stack-usage.patch</a></li>
+<li><a href="https://dlbeer.co.nz/downloads/gcc-7.3.0-mangled-stack-usage.patch">gcc-7.3.0-mangled-stack-usage.patch</a></li>
+</ul>
+<p>These patches cause GCC to use names in the output for <code>-fstack-usage</code> which match the disassembler output:</p>
+<pre><code>foo.cpp:6:10:_ZN4test15crc32_ieee802_3EPKhyj    32      static</code></pre>
+<p>Nothing changes for C code. With these patches, <code>avstack.pl</code> works fine for C++ (although you probably want to run the final output through <code>c++filt</code>).</p>
+<h2 id="copyright">Copyright</h2>
+<p>Copyright © 2013 Daniel Beer &lt;<a href="mailto:dlbeer@gmail.com" class="email">dlbeer@gmail.com</a>&gt;</p>
+<p>Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS” AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+</div>
+<script>
+renderMathInElement(document.body);
+</script>
+
+
+</body></html>
