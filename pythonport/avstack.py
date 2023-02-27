@@ -37,6 +37,7 @@ as the stack cost of "main", plus the maximum stack cost of any
 interrupt handler which might execute.
 """
 
+from collections import defaultdict
 import re
 import subprocess
 import sys
@@ -44,15 +45,15 @@ from typing import Dict, Literal, Union, cast
 
 # Configuration: set these as appropriate for your architecture/project.
 
-OBJ_DUMP = "avr-objdump"
+OBJ_DUMP = sys.argv[1]
 CALL_COST = 4
 
 # Define constants for regex pattern groups
 
 ADDRESS_AND_NAME_PATTERN = re.compile(r"^([0-9a-fA-F]+) <(.*)>:")
-R_FUNC_CALL_PATTERN = re.compile(r": R_[A-Za-z0-9_]+_CALL[ \t]+(.*)")
+R_FUNC_CALL_PATTERN = re.compile(r".*:\sR_[A-Za-z0-9_]+_CALL[\s]+(.*).*")
 TEXT_0X_PATTERN = re.compile(r"^\.text\+0x(.*)")
-OBJECT_FILE_NAME_PATTERN = re.compile(r"^(.*).o")
+OBJECT_FILE_NAME_PATTERN = re.compile(r"^(.*).o(bj)?")
 SU_FILE_LINE_PATTERN = re.compile(r"^.*:([^\t ]+)[ \t]+([0-9]+)")
 VECTOR_PATTERN = re.compile(r"^__vector_")
 KEY_PATTERN = re.compile(r"^(.*)@(.*)")
@@ -70,7 +71,7 @@ addresses: Dict[str, str] = {}  # "addr@file" -> "func@file"
 global_name: Dict[str, str] = {}  # "func" -> "func@file"
 ambiguous: Dict[str, Literal[1]] = {}  # "func" -> 1
 
-for objfile in sys.argv[1:]:
+for objfile in sys.argv[2:]:
     # Disassemble this object file to obtain a callees. Sources in the
     # call graph are named "func@file". Targets in the call graph are
     # named either "offset@file" or "funcname". We also keep a list of
@@ -106,12 +107,15 @@ for objfile in sys.argv[1:]:
     if match := OBJECT_FILE_NAME_PATTERN.match(objfile):
         sufile = f"{match.group(1)}.su"
     
-        with open(sufile, "r") as f:
-            for line in f.readlines():
-                if match := SU_FILE_LINE_PATTERN.match(line):
-                    function_name, stack_usage = match.group(1, 2)
-                    frame_size[f"{function_name}@{objfile}"] = int(stack_usage) + CALL_COST
-                
+        try:
+            with open(sufile, "r") as f:
+                for line in f.readlines():
+                    if match := SU_FILE_LINE_PATTERN.match(line):
+                        function_name, stack_usage = match.group(1, 2)
+                        frame_size[f"{function_name}@{objfile}"] = int(stack_usage) + CALL_COST
+        except FileNotFoundError:
+            print(f"No file: {sufile}")
+          
 # In this step, we enumerate each list of callees in the call graph and
 # try to resolve the symbols. We omit ones we can't resolve, but keep a
 # set of them anyway.
@@ -152,12 +156,12 @@ for call in call_graph.keys():
 
 has_caller: Dict[str, Literal[1]] = {}
 visited: Dict[str, Union[Literal[" "], Literal["R"], Literal["?"]]] = {}
-total_cost: Dict[str, int] = {}
-call_depth: Dict[str, int] = {}
+total_cost: Dict[str, int] = defaultdict(lambda: 0)
+call_depth: Dict[str, int] = defaultdict(lambda: 0)
 
 def trace(fn: str):
-    if fn in visited and visited[fn] == "?":
-        visited[fn] = "R"
+    if fn in visited:
+        visited[fn] == "R" if visited[fn] == "?" else visited[fn]
         return
     
     visited[fn] = "?"
