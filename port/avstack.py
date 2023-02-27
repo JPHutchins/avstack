@@ -83,7 +83,6 @@ for objfile in sys.argv[2:]:
     disassembly = process.stdout.decode().splitlines()
 
     for line in disassembly:
-
         if match := ADDRESS_AND_NAME_PATTERN.match(line):
             address, name = match.group(1, 2)
 
@@ -92,7 +91,7 @@ for objfile in sys.argv[2:]:
             if name in global_name:
                 ambiguous[name] = 1
             global_name[name] = f"{name}@{objfile}"
-        
+
         if match := R_FUNC_CALL_PATTERN.match(line):
             t = match.group(1)
 
@@ -100,13 +99,13 @@ for objfile in sys.argv[2:]:
                 t = f"@{objfile}"
             elif match := TEXT_0X_PATTERN.match(t):
                 t = f"{match.group(1)}@{objfile}"
-            
+
             call_graph[source][t] = 1
-    
+
     # Extract frame sizes from the corresponding .su file.
     if match := OBJECT_FILE_NAME_PATTERN.match(objfile):
         sufile = f"{match.group(1)}.su"
-    
+
         try:
             with open(sufile, "r") as f:
                 for line in f.readlines():
@@ -115,7 +114,7 @@ for objfile in sys.argv[2:]:
                         frame_size[f"{function_name}@{objfile}"] = int(stack_usage) + CALL_COST
         except FileNotFoundError:
             print(f"No file: {sufile}")
-          
+
 # In this step, we enumerate each list of callees in the call graph and
 # try to resolve the symbols. We omit ones we can't resolve, but keep a
 # set of them anyway.
@@ -136,7 +135,7 @@ for called_from in call_graph.keys():
             resolved[t] = 1
         else:
             unresolved[t] = 1
-    
+
     call_graph[called_from] = resolved
 
 # Create fake edges and nodes to account for dynamic behaviour.
@@ -159,11 +158,12 @@ visited: Dict[str, Union[Literal[" "], Literal["R"], Literal["?"]]] = {}
 total_cost: Dict[str, int] = defaultdict(lambda: 0)
 call_depth: Dict[str, int] = defaultdict(lambda: 0)
 
+
 def trace(fn: str):
     if fn in visited:
         visited[fn] == "R" if visited[fn] == "?" else visited[fn]
         return
-    
+
     visited[fn] = "?"
 
     max_depth = 0
@@ -185,6 +185,7 @@ def trace(fn: str):
     if visited[fn] == "?":
         visited[fn] = " "
 
+
 for call in call_graph.keys():
     trace(call)
 
@@ -201,40 +202,36 @@ for name in visited_sorted:
     _name = name
     if (match := KEY_PATTERN.match(name)) and name not in ambiguous:
         name = match.group(1)
-    
+
     tag = visited[_name]
     cost = total_cost[_name]
 
     name = _name if name in ambiguous else name  # redundant line?
     if _name not in has_caller:
         tag = ">"
-    
+
     if VECTOR_PATTERN.match(_name) and cost > max_iv:
         max_iv = cost
     elif MAIN_PATTERN.match(_name):
         main = cost
-    
+
     if name in ambiguous:  # redundant lines?
         name = _name
-    
+
     print(
-        "%s %-30s %8d %8d %8d" % (
-            tag,
-            name,
-            cost,
-            frame_size[_name] if _name in frame_size else 0,
-            call_depth[_name]
-        )
+        "%s %-30s %8d %8d %8d"
+        % (tag, name, cost, frame_size[_name] if _name in frame_size else 0, call_depth[_name])
     )
 
 print()
 
 print("Peak execution estimate (main + worst-case IV):")
 print(
-    "  main = %d, worst IV = %d, total = %d" % (
+    "  main = %d, worst IV = %d, total = %d"
+    % (
         total_cost[global_name["main"]],
         total_cost["INTERRUPT"],
-        total_cost[global_name["main"]] + total_cost["INTERRUPT"]
+        total_cost[global_name["main"]] + total_cost["INTERRUPT"],
     )
 )
 print()

@@ -5,11 +5,12 @@ import sys
 from pathlib import Path
 from typing import List
 
+
 def listobjs(root: Path) -> List[Path]:
     obj_files: List[Path] = []
 
-    for root, _, files in os.walk(root.absolute()):
-        obj_files.extend([Path(root, f) for f in files if f.endswith(".obj") or f.endswith(".o")])
+    for _root, _, files in os.walk(root.absolute()):
+        obj_files.extend([Path(_root, f) for f in files if f.endswith(".obj") or f.endswith(".o")])
 
     return obj_files
 
