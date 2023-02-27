@@ -37,10 +37,10 @@ as the stack cost of "main", plus the maximum stack cost of any
 interrupt handler which might execute.
 """
 
-from collections import defaultdict
 import re
 import subprocess
 import sys
+from collections import defaultdict
 from typing import Dict, Literal, Union
 
 # Configuration: set these as appropriate for your architecture/project.
