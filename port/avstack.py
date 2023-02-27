@@ -41,7 +41,7 @@ from collections import defaultdict
 import re
 import subprocess
 import sys
-from typing import Dict, Literal, Union, cast
+from typing import Dict, Literal, Union
 
 # Configuration: set these as appropriate for your architecture/project.
 
@@ -64,7 +64,7 @@ MAIN_PATTERN = re.compile(r"^main@")
 # sizes. We're just parsing at this stage -- callee name resolution
 # comes later.
 
-frame_size: Dict[str, int] = {}  # "func@file" -> size
+frame_size: Dict[str, int] = defaultdict(lambda: 0)  # "func@file" -> size
 call_graph: Dict[str, Dict] = {}  # "func@file" -> {callees}
 addresses: Dict[str, str] = {}  # "addr@file" -> "func@file"
 
@@ -91,6 +91,8 @@ for objfile in sys.argv[2:]:
             if name in global_name:
                 ambiguous[name] = 1
             global_name[name] = f"{name}@{objfile}"
+
+            addresses[f"{address}@{objfile}"] = f"{name}@{objfile}"
 
         if match := R_FUNC_CALL_PATTERN.match(line):
             t = match.group(1)
@@ -161,7 +163,7 @@ call_depth: Dict[str, int] = defaultdict(lambda: 0)
 
 def trace(fn: str):
     if fn in visited:
-        visited[fn] == "R" if visited[fn] == "?" else visited[fn]
+        visited[fn] = "R" if visited[fn] == "?" else visited[fn]
         return
 
     visited[fn] = "?"
@@ -181,7 +183,7 @@ def trace(fn: str):
         max_depth = max(depth, max_depth)
 
     call_depth[fn] = max_depth + 1
-    total_cost[fn] = max_frame + frame_size[fn] if fn in frame_size else 0
+    total_cost[fn] = max_frame + frame_size[fn]
     if visited[fn] == "?":
         visited[fn] = " "
 
@@ -208,7 +210,7 @@ for name in visited_sorted:
 
     name = _name if name in ambiguous else name  # redundant line?
     if _name not in has_caller:
-        tag = ">"
+        tag = ">"  # type: ignore
 
     if VECTOR_PATTERN.match(_name) and cost > max_iv:
         max_iv = cost
