@@ -193,8 +193,8 @@ sub trace {
 	    $has_caller{$t} = 1;
 	    trace($t);
 
-	    my $is = $total_cost{$t};
-	    my $d = $call_depth{$t};
+	    my $is = ($total_cost{$t} || 0);
+	    my $d = ($call_depth{$t} || 0);
 
 	    $max_frame = $is if $is > $max_frame;
 	    $max_depth = $d if $d > $max_depth;
