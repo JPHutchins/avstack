@@ -13,7 +13,7 @@ This script requires that you compile your code with -fstack-usage.
 This results in GCC generating a .su file for each .o file. Once you
 have these, do:
 
-   python3 ./avstack.py <object files>
+   python3 -m port.avstack <objdump path> <object files>
 
 This will disassemble .o files to construct a call graph, and read
 frame size information from .su. The call graph is traced to find, for
