@@ -1,0 +1,44 @@
+[project]
+name = "gccstack"
+description = "Static stack usage analysis"
+version = "0.1.0"
+authors = [
+    {name = "J.P. Hutchins", email = "jphutchins@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["avstack"]
+
+[project.optional-dependencies]
+dev = [
+    "black >= 22.3.0",
+    "flake8 >= 4.0.1",
+    "isort >= 5.10.1",
+    "mypy >= 0.961",
+    "mypy-extensions >= 0.4.3",
+    "pytest >= 7.1.2",
+    "pytest-cov >= 3.0.0",
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 35.0.2",
+]
+
+[tool.black]
+line-length = 100
+skip-string-normalization = 1
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+
+[tool.mypy]
+exclude = ["tests/fixtures/", "venv", "build"]
+
+[tool.pytest.ini_options]
+norecursedirs = "tests/fixtures"
