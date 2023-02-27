@@ -23,7 +23,7 @@
 # This results in GCC generating a .su file for each .o file. Once you
 # have these, do:
 #
-#    ./avstack.pl <object files>
+#    ./avstack.pl <objdump path> <object files>
 #
 # This will disassemble .o files to construct a call graph, and read
 # frame size information from .su. The call graph is traced to find, for
@@ -50,7 +50,7 @@ use strict;
 
 # Configuration: set these as appropriate for your architecture/project.
 
-my $objdump = "avr-objdump";
+my $objdump = $ARGV[0];
 my $call_cost = 4;
 
 # First, we need to read all object and corresponding .su files. We're
@@ -65,7 +65,7 @@ my %addresses;      # "addr@file" -> "func@file"
 my %global_name;    # "func" -> "func@file"
 my %ambiguous;      # "func" -> 1
 
-foreach (@ARGV) {
+foreach (@ARGV[1..$#ARGV]) {
     # Disassemble this object file to obtain a callees. Sources in the
     # call graph are named "func@file". Targets in the call graph are
     # named either "offset@file" or "funcname". We also keep a list of
@@ -106,16 +106,21 @@ foreach (@ARGV) {
     close(DISASSEMBLY);
 
     # Extract frame sizes from the corresponding .su file.
-    if ($objfile =~ /^(.*).o$/) {
+    if ($objfile =~ /^(.*).o(bj)?$/) {
 	my $sufile = "$1.su";
 
-	open(SUFILE, "<$sufile") || die "Can't open $sufile";
-	while (<SUFILE>) {
-	    $frame_size{"$1\@$objfile"} = $2 + $call_cost
-		if /^.*:([^\t ]+)[ \t]+([0-9]+)/;
+	if (-e $sufile) {
+		open(SUFILE, "<$sufile") || die "Can't open $sufile";
+		while (<SUFILE>) {
+			$frame_size{"$1\@$objfile"} = $2 + $call_cost
+			if /^.*:([^\t ]+)[ \t]+([0-9]+)/;
+		}
+		close(SUFILE);
+		}
+	else {
+		print("No file: $sufile\n");
 	}
-	close(SUFILE);
-    }
+	}
 }
 
 # In this step, we enumerate each list of callees in the call graph and
